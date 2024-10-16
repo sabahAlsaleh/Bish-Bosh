@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(196, 173, 144);
+}
+
+
+h1, h2 {
+    font-size: 2em;
+}
+  
+p {
+    font-size: 1.5em;
+}
+  
+input{
+    margin: 10px;
+
+}
+
+#result{
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.card-body{
+    margin-left: 2px;
+
+}
+.card {
+    width: 100%; 
+    max-width: 300px; 
+    border:2px solid #272828;
+
+}
+button {
+    display: block;
+    background-color: #c7bb8b;
+    width: 150px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    padding: 10px; /* Add padding for more space */
+    border-radius: 5px; /* Optional: add rounded corners */
+
+}
+
+footer {
+    background-color: rgba(224, 216, 216, 0.8);
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh 2.0</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Bish-Bosh 2.0</h1>
+    </header>
+
+    <main>
+        <p> An interactive game where numbers divisible by "Bish" and "Bosh" are replaced with respective words!</p>
+      
+        <div class="card">
+            <div class="card-body">
+                <label for="limit">loop Limit </label>
+                <input type="number"id="limit" min="1">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <label for="bish">Bish Divisor: </label>
+        <input type="number" id="bish" min="1" >
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <label for="bosh">Bosh Divisor:</label>
+                <input type="number" id="bosh" min ="1">
+        
+            </div>
+        </div>
+
+        
+        <button onclick="runBishBosh()">Run Bish-Bosh</button>
+
+        <div id="result"></div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024  Sabah</p>
+    </footer>
+    
+    <script src="bishbosh.js"></script>
+</body>
+</html>
